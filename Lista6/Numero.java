@@ -49,10 +49,13 @@ public class Numero {
 
         if (num < 10) {
             System.out.printf("Número por extenso: %s %n", palavra_unidade);
+        } else if (num < 20) {
+            System.out.printf("Número por extenso: %s %n", palavra_numero);
+        } else if (unidade == 0){
+            System.out.printf("Número por extenso: %s %n", palavra_dezena);
+        } else {
+            System.out.printf("Número por extenso: %s e %s %n", palavra_dezena, palavra_unidade);
         }
-
-
-
 
         sc.close();
     }
