@@ -7,7 +7,7 @@ public class Moeda {
         System.out.print("Entre com a quantidade de centavos: ");
         int moedas = sc.nextInt();
 
-        int resto = moedas % 50;
+        //int resto = moedas % 50;
         System.out.printf("Moedas de 50 centavos: %d %n", moedas/=50);
         
         

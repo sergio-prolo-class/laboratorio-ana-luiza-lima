@@ -1,4 +1,4 @@
-package Lista9;
+//package Lista9;
 
 import java.util.Scanner;
 
@@ -15,7 +15,7 @@ public class Arranjo1 {
             }
         } while (numero < 1 || numero > 999999999);
 
-        int[] contagem = new int[10];
+        int[] contagem = new int[10]; 
 
         while (numero > 0) {
             int digito = numero % 10; 
